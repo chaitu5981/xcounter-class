@@ -8,12 +8,12 @@ export default class App extends Component {
     };
   }
 
-  increment() {
+  increment = () => {
     this.setState({ count: Number(this.state.count) + 1 });
-  }
-  decrement() {
+  };
+  decrement = () => {
     this.setState({ count: Number(this.state.count) - 1 });
-  }
+  };
   render() {
     return (
       <div>
